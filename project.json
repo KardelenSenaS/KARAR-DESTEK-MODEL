@@ -1,11 +1,12 @@
 {
-  "name": "KAP FİNANSAL VERİ ÇEKME",
-  "projectId": "2c174d3f-e11d-43a1-a9d9-075fb48e7ab7",
-  "description": "Farklı Firmaların, farklı Yıl ve Dönemlerdeki Raporlarını KAP web sitesinden temin edilmesi için ilgili proje yazılmış ve başarılı olmuştur. ",
+  "name": "PYTHON ENTEGRASYON",
+  "projectId": "b4d101a1-b234-495a-808e-cc3746e748fb",
+  "description": "Python aracılığıyla kodlanan karar destek modülünün UiPath e entegrasyonu ile karar, kullanıcıya sunulmaktadır. ",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "[25.4.2]",
-    "UiPath.UIAutomation.Activities": "[24.10.12]"
+    "UiPath.Mail.Activities": "[2.1.10-preview]",
+    "UiPath.Python.Activities": "[1.10.0]",
+    "UiPath.System.Activities": "[25.4.2]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -47,7 +48,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "6901aa54-76b3-4697-ba7c-5a38418e9e8d",
+      "uniqueId": "3a1fb947-bae1-4b3e-ab73-5d388b4bd763",
       "input": [],
       "output": []
     }
